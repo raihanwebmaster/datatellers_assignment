@@ -1,0 +1,7 @@
+.RightSide {
+  height: 100vh;
+}
+
+.RightSide > img {
+  height: 100%;
+}
