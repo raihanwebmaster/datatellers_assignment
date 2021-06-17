@@ -1,4 +1,5 @@
-import React from 'react';
+// This is a component that displays the fancy animation into the UI.
+import React from "react";
 
 const BackgroundAnimation = () => (
   <div>
