@@ -1,3 +1,4 @@
+// This component made to show a 404 error to the user when they try to enter the wrong URL.
 import React from "react";
 const PageNoFind = () => {
   return (

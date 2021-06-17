@@ -1,5 +1,6 @@
+/* use display flexBox for horizontally-divide these two content & use justify-content space-between for the same distance in each content  */
 .container {
   display: flex;
   justify-content: space-between;
-  background: #1D1D1D;
+  background: #1d1d1d;
 }
