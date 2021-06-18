@@ -4,7 +4,7 @@ import Typical from "react-typical";
 import { Button } from "@material-ui/core";
 import "./style.css";
 import BackgroundAnimation from "../BackgrooundAnimation/BackgroundAnimation";
-import { url } from "../api";
+import { url } from "../../api";
 
 const PageLeftSide = () => {
   const [jobStatus, setJobStatus] = useState(""); // created 'jobStatus' state to store our api data
@@ -28,7 +28,21 @@ const PageLeftSide = () => {
         }, 3000);
       } else if (data.status === 400) {
         setIsLoaded(false);
-        alert("server down");
+        alert(
+          "The server could not understand the request due to invalid syntax."
+        );
+        throw new Error("Server responds with error!");
+      } else if (data.status === 403) {
+        setIsLoaded(false);
+        alert(
+          "You does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource."
+        );
+        throw new Error("Server responds with error!");
+      } else if (data.status === 404) {
+        setIsLoaded(false);
+        alert(
+          "The server can not find the requested resource. In the browser, this means the URL is not recognized."
+        );
         throw new Error("Server responds with error!");
       }
     } catch (error) {
