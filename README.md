@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Project Documentation 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technology :
 
-## Available Scripts
++ **React js** - ( React.js is a JavaScript framework, Which is very popular because of it's extra simplicity and flexibility.)
++ **React-Router-dom** - ( React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any   'route' inside the router file, the user will be redirected to that particular route.)
++ **Axios** - (Axios is a Javascript library used to make HTTP requests from node. js  and it supports the Promise API that is native to JS ES6.It also has the ability to cancel requests.)
++ **React-Typical** - (React-Typical used to made text animated easily)
++ **Material-UI** - (Material-UI provides an optional CssBaseline component. It fixes some inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.)
 
-In the project directory, you can run:
+## Steps :
++ To create a react app, run your terminal   npx -create-react-app datatellers_assignment
++ Started design with following task which i got.
++ Started design with following task which i got.make component for each part to make the code more readable .
++ By using react-typical, animate some text for better user experience .
++ Used a background animation for look the UI more eye catching .
++ Made a button for fetching data from API and show the job status to the user. Status will showing after clicking the button
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to compile and run the application -
++ Take the git clone url and open your terminal and run the project "git clone {your copied git clone url}"
++ Download the project and unzip the downloaded folder than open it in your code editor .
++ After opening your project in your code editor run "npm install/yarn install" to get all the dependencies which included in that project .
++ After completing the installation, then use the API link and secret key properly in your code(I hide it to make the API more secured) .
++ Then use "npm start/yarn start" in your command line and it will automatically open your localhost:3000. Hurrah! you will see an outstanding web application.🔥🔥
