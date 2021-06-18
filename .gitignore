@@ -24,4 +24,4 @@ yarn-error.log*
 node_modules
 
 # API
-.api.js
+api.js
